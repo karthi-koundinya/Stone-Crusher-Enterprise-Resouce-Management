@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts  
+Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">  
+<struts>  
+<constant name="struts.devMode" value="true" />
+<constant name="struts.multipart.maxSize" value="324676455" />
+<package name="default" extends="struts-default">
+
+	<global-results>
+			<result name="jsondata">
+				/jsondata.jsp
+			</result>
+	</global-results>  
+<action name="login" class="Stone.in.LoginAction"></action>
+
+<action name="home">
+<result>/jsp/AdminHome.jsp</result>
+</action>
+<action name="booking" class="Stone.in.DispMaterial">
+<result  name="success">/jsp/booking.jsp</result>
+
+</action>
+<action name="bookMyRoom" class="Stone.in.BookMaterial">
+<result name="success">/jsp/AdminHome.jsp</result>
+<result  name="failure">/jsp/bookerror.jsp</result>
+</action>
+<action name="dailywages">
+<result name="success">/jsp/DialyWages.jsp</result>
+</action>
+<action name="searchdet" class="Stone.in.DialyWages">
+<result name="success">/jsp/DialyWagesDetails.jsp</result>
+</action>
+<action name="inward">
+<result name="success">/jsp/Inward.jsp</result>
+</action>
+<action name="inwardproduct" class="Stone.in.InwordDetails">
+<result name="success">/jsp/Inward.jsp</result>
+</action>
+<action name="checkProduct" class="Stone.in.MaterialDetails">
+<result name="success">/jsp/Materials.jsp</result>
+</action>
+<action name="outward" class="Stone.in.OutwardDetails">
+<result name="success">/jsp/Outward.jsp</result>
+</action>
+<action name="addemp">
+<result>/jsp/AddEmp.jsp</result>
+</action>
+<action name="newemp" class="Stone.in.AddNewEmp">
+<result name="success">/jsp/AddEmp.jsp</result>
+</action>
+<action name="empdet" class="Stone.in.EmployeeDetails">
+<result name="success">/jsp/EmpDetails.jsp</result>
+</action>
+<action name="deleteemp">
+<result>/jsp/DeleteEmp.jsp</result>
+</action>
+<action name="delete" class="Stone.in.DeleteEmployee">
+<result>/jsp/DeleteEmp.jsp</result>
+</action>
+<action name="updateemp">
+<result>/jsp/Update.jsp</result>
+</action>
+<action name="updateempdet" class="Stone.in.UpdateEmpDetails">
+<result name="success">/jsp/Updateemp.jsp</result>
+</action>
+<action name="newempupdate" class="Stone.in.UppdateEmpDets">
+<result name="success">/jsp/Update.jsp</result>
+</action>
+<action name="home">
+<result>/jsp/AdminHome.jsp</result>
+</action>
+
+<action name="Getamnt" class="Stone.in.GetAmount">
+</action>
+
+<action name="logout">
+<result>index.jsp</result>
+</action>
+<action name="detitem" class="Stone.in.DeletItems">
+    <result name="success">/jsp/Materials.jsp</result>
+</action>
+<action name="dem" class="Stone.in.Detl">
+     <result name="success">/jsp/Materials.jsp</result>
+    
+</action> 
+
+</package>  
+</struts> 

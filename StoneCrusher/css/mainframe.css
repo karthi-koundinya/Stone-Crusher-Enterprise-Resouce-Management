@@ -1,0 +1,148 @@
+/** For tiny images **/
+.icon {
+    background-image: url("../images/glyphicons-halflings.png");
+    position: static;
+    height: 19px;
+    width: 15px;
+	opacity: 0.5;
+    float: left;
+}
+.icons-e {
+    background-position: 15px -69px;
+    float: right;
+}
+.icons-d {
+    background-position: 157px 2px;
+    float: right;
+}
+.icons-add {
+    background-position: 62px 66px;
+    float: right;
+}
+.icons-logout {
+    background-image: url("../images/glyphicons-halflings-white.png");
+    background-position: 84px 2px;
+    margin-right: 1px;
+    margin-top: 2px;
+}
+.addIcon {
+    background-image: url("../images/glyphicons-halflings.png");
+    background-position: 62px -96px;
+    display: block;
+    height: 15px;
+    width: 15px;
+}
+.icons-ed {
+	background-position: 0px -70px;
+}
+.icons-save {
+	background-position: -24px -22px;
+}
+.icon-calendar{
+	background-position: -191px -117px;
+	cursor: pointer;
+}
+.icon.icons-search {
+    background-position: -48px 2px;
+    cursor: pointer;
+    float: left;
+    left: 176px;
+    position: relative;
+    top: 6px;
+}
+
+th {
+    text-align: center;
+}
+.body.ui-widget-content {
+	overflow: auto;
+}
+
+.s-leftpanel .s-outline .s-outline-row-selected {
+    background: rgba(0, 0, 0, 0) linear-gradient(#3d647e 0%, #1d425b 100%) repeat scroll 0 0;
+    border-bottom: 1px solid #353535;
+    border-top: 1px solid #353535;
+    padding: 6px 15px;
+}
+/* .tab-pane.active.in {
+    margin-top: 15px;
+} */
+a {
+   outline: 0;
+}
+a::-moz-focus-inner {
+  border: 0;
+}
+a:hover, a:active, a:focus {
+   outline: 0;
+}
+.row.next-mater-wrap {
+    margin-top: 15px;
+}
+.godown {
+	font-weight: bold;
+}
+.page-header {
+	color: #ec5d5d;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+.displayNone {
+	display:none;
+}
+#loading {
+    background-color: #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.73;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3000;
+    display: none;
+}
+.mandatory {
+    color: red;
+}
+.besideInput {
+	padding-right: 34px;
+}
+.input-addon {
+	padding: 7px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    top: 22.5px;
+    width: 34px
+}
+.starFishImg {
+	height: 118px;
+    left: 1in;
+    position: absolute;
+    top: 445px;
+    width: 129px;
+}
+.coconutImage {
+	height: 563px;
+    width: 100%;
+}
+.removeRoom, #addRoomType, .edit-details, .removeUser {
+   cursor: pointer;
+}
+.span-width175 {
+	width: 99px;
+}
+.divCheckOut {
+	background-color: #f9f9f9;
+    border: 1px solid #d3d3d3;
+    border-radius: 0;
+    padding: 6px 12px;
+	width: 221px !important;
+}
+.placeholder {
+	margin-top:15px;
+}
+input.divCheckOut {
+	background-color: #fff;
+}
